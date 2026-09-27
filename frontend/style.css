@@ -19,7 +19,16 @@
     font-family: transcity;
     box-sizing: border-box;
 }
-
+#file-input-div{
+    margin: 10px;
+}
+#myfile{
+    display: none;
+}
+#file-button{    
+    background-color: rgb(178, 255, 101);
+    border-radius: 8px;
+}
 
 /*Adding Fonts*/
 @font-face{
