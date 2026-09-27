@@ -59,7 +59,7 @@ class df_maker:
 
 class GraphMaker: #oh ok, this is PEP 8 way of writing class names
     def __init__(self):
-        self.plotly_js_file = 'other\\plotly_js.js'
+        self.plotly_js_file = 'frontend\\utilities\\plotly_js.js'
 
     def total_mssg_sent(self, chat_df, graph='pie', output='str'):
         '''total_mssg method take 1 parameter:

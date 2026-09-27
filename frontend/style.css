@@ -1,0 +1,32 @@
+#front-head{
+    background-color: rgb(255, 240, 154);
+    width: 1200px;
+    height: 400px;
+    place-items: center;
+    font-size: 100px;
+    text-align: center;
+    overflow-wrap: break-word; /*tbh idk how this overflow wrap works, gpt said that it just fits the text*/
+    box-sizing: border-box; /*this also, like see the thing is, it's not important rn so yeah*/
+    margin-bottom: 20px;
+}
+#font1{
+    font-family: medici;
+    box-sizing: border-box;
+}
+
+#font2{
+    font-size: 150px;
+    font-family: transcity;
+    box-sizing: border-box;
+}
+
+
+/*Adding Fonts*/
+@font-face{
+    font-family: "medici";
+    src: url("fonts/medici.ttf");
+}
+@font-face{
+    font-family: "transcity";
+    src: url("fonts/transcity.otf");
+}
